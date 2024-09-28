@@ -1,0 +1,44 @@
+body {
+    background-color: pink;
+    color: black;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    background-color: white;
+}
+
+body {
+    font-family: InterVariable, system-ui, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell;
+    font-optical-sizing: auto;
+}
+
+.based-smp-acronym-box {
+    float: right;
+    padding-right: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hide-on-small-screen {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .hide-on-large-screen {
+        display: none;
+    }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Based SMP</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="shortcut icon" href="assets/favicon.ico" />
+    </head>
+    <body>
+        <div class="hide-on-small-screen based-smp-acronym-box">
+            <b><u>Based SMP</u></b>
+            <p>
+                <b>B</b>. <span id="name1"></span>
+                <br />
+                <b>A</b>. <span id="name2"></span>
+                <br />
+                <b>S</b>. <span id="name3"></span>
+                <br />
+                <b>E</b>. <span id="name4"></span>
+                <br />
+                <b>D</b>. <span id="name5"></span>
+                <br />
+                <sup style="float: right">(smp)</sup>
+            </p>
+        </div>
+
+        <header>
+            <h2><u>Based SMP</u></h2>
+        </header>
+
+        <!-- todo: this should be replaced with the plain text server ip if javascript is disabled -->
+        <p>
+            IP:
+            <a id="server-ip" href="#" style="cursor: pointer">
+                based-smp.duckdns.org
+            </a>
+
+            <!-- todo: 2 elements seem to be interfering with each other and it's triggering me -->
+            <sup id="copy-status"></sup>
+        </p>
+        <main>
+            <br />
+            <div>
+                <b>Rules:</b>
+                <ul>
+                    <li>
+                        You cannot grief structures unless you have permission,
+                        own it or otherwise know that the owners of it won't
+                        care if the structure gets destroyed.
+                    </li>
+                    <li>
+                        Every exploit is allowed, as long as you aren't trying
+                        to lag the server or crash other players (unless it's a
+                        joke, and you stop when asked).
+                    </li>
+                    <li>
+                        No hacking. (Using mods/hacked clients to get stuff or
+                        do stuff that isn't supposed to happen)
+                    </li>
+                </ul>
+            </div>
+
+            <p>
+                <b>Modpack:</b>
+                <br />
+                <a href="https://cuboid.dev/Based%20SMP%20V2.1.0.mrpack">based smp modpack download</a>
+                <br />
+                <sup>
+                    If you have any trouble installing the modpack, please ask Red
+                    or Cuboid for help.
+                </sup>
+            </p>
+
+            <p>
+                <b>The Based SMP Discord:</b>
+                <br />
+                <a href="https://discord.gg/fQx9HGnCcv"
+                    >https://discord.gg/fQx9HGnCcv</a
+                >
+            </p>
+        </main>
+
+        <div class="hide-on-small-screen" style="float: right">
+            <img
+                src="assets/server-icon-1.png"
+                alt="Sever icon"
+                width="400"
+                height="400"
+            />
+            <br />
+            <span>
+                <span style="text-align: end; font-size: 8px"
+                    >*may not be the actual name of the smp</span
+                >
+                <span style="float: right">Icon and name by Blubby</span>
+            </span>
+            <hr />
+        </div>
+
+        <script src="scripts/serverAcronym.js"></script>
+        <script src="scripts/copyServerIp.js"></script>
+        <script src="scripts/hideIfJsOn.js"></script>
+    </body>
+</html>

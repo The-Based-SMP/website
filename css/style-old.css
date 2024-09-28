@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    background-color: white;
+}
+
+.based-smp-acronym-box {
+    float: right;
+    padding-right: 16px;
+}
