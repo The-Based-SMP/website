@@ -3,15 +3,9 @@ body {
     color: black;
 }
 
+a:visited,
 a:link {
     color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-    background-color: transparent;
     text-decoration: none;
 }
 
