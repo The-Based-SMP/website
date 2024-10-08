@@ -1,0 +1,36 @@
+root = true
+
+# settings for all files
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# settings for html files
+[*.html]
+indent_style = space
+indent_size = 4
+
+# settings for css files
+[*.css]
+indent_style = space
+indent_size = 4
+
+# settings for javascript files
+[*.js]
+indent_style = space
+indent_size = 4
+
+# settings for javascript module files
+[*.mjs]
+indent_style = space
+indent_size = 4
+
+# settings for typescript files
+[*.ts]
+indent_style = space
+indent_size = 4
+
